@@ -1,18 +1,19 @@
-#Automação RPA Challenge
+# 🤖 Automação RPA Challenge
 
-Este projeto automatiza o preenchimento do desafio do site rpaChallenge utilizando Python, Selenium e Pandas.
+Este projeto automatiza o preenchimento do desafio do site [RPA Challenge](https://rpachallenge.com/) utilizando **Python**, **Selenium** e **Pandas**.
 
-#Como usar
-Instale as dependências:
+---
 
-bash
-Copiar
-Editar
+## ⚙️ Como usar
+
+### 1. Instale as dependências:
+
+```bash
 pip install selenium pandas openpyxl
-Coloque o chromedriver.exe na pasta drivers/ (verifique se a versão do ChromeDriver é compatível com seu navegador Chrome).
+2. Coloque o chromedriver.exe na pasta drivers/
+Certifique-se de que a versão do ChromeDriver seja compatível com seu navegador Chrome.
 
-##Prepare uma planilha Excel chamada clientes.xlsx com as seguintes colunas:
-
+📄 Prepare uma planilha Excel chamada clientes.xlsx com as seguintes colunas:
 Nome
 
 Sobrenome
@@ -27,18 +28,25 @@ Email
 
 Telefone
 
-Execute o script:
-
+▶️ Execute o script:
 bash
-Copiar
-Editar
+Copy
+Edit
 python PreenchimentoAutomatico.py
+O script:
 
-O script abrirá o navegador, acessará o site, clicará em Start e preencherá automaticamente os dados da planilha.
+Abre o navegador
 
-##Observações
-O script utiliza WebDriverWait para esperar que os elementos da página estejam carregados antes de interagir, o que é mais confiável que usar time.sleep().
+Acessa o site
 
+Clica em "Start"
 
-Após o preenchimento, o script espera que você pressione Enter antes de fechar o navegador, para que você possa visualizar o resultado.
+Preenche automaticamente os dados da planilha
 
+🧠 Observações
+
+Ao final, o script espera que você pressione Enter antes de fechar o navegador, para que você possa visualizar o resultado.
+
+✍️ Autor
+Rodrigo Miranda
+GitHub
